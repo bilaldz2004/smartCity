@@ -1,0 +1,66 @@
+# =========================
+# 🔐 Environment
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# 📦 Dependencies
+# =========================
+/vendor/
+
+# =========================
+# 🧱 Laravel core
+# =========================
+/storage/*.key
+/storage/logs/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/bootstrap/cache/
+/public/storage
+
+# =========================
+# 🔥 Build / Vite
+# =========================
+/public/build
+/public/hot
+
+# =========================
+# 🧪 Testing / cache
+# =========================
+.phpunit.result.cache
+.phpunit.cache
+
+# =========================
+# 🧰 Tools / local env
+# =========================
+Homestead.yaml
+Homestead.json
+/.vagrant
+
+# =========================
+# 🧠 IDEs / Editors
+# =========================
+.vscode/
+.idea/
+.fleet/
+.zed/
+.nova/
+
+# =========================
+# 📄 Logs
+# =========================
+*.log
+
+# =========================
+# 💻 OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🔑 Composer auth
+# =========================
+auth.json

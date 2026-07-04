@@ -1,0 +1,43 @@
+# =========================
+# 🐍 Virtual environments
+# =========================
+.venv/
+venv/
+ENV/
+env/
+
+# =========================
+# 🧠 Python cache
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# 🔐 Environment variables
+# =========================
+.env
+.env.*
+
+# =========================
+# 📦 Distribution / builds
+# =========================
+dist/
+build/
+*.egg-info/
+
+# =========================
+# 🧪 Testing / tooling
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# 💻 OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+
+
